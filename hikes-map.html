@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>International Hiking Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Shadows+Into+Light" rel="stylesheet">
+  </head>
+  <header>
+    <section class="logo">
+      <h1>International Hiking Club</h1>
+    </section>
+    <nav>
+      <ul>
+        <li class="menu"><a href="#">Menu</a></li>
+        <li class="submenu"><a href="home.html">Home</a></li>
+        <li class="submenu" id="menu-hikes"><a href="hikes.html">Hikes</a></li>
+        <li class="submenu"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="main">
+      <section class="hikes">
+        <h2>Hikes</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/d/embed?mid=1H80HvstO-m12JlkCWYnXuPKLYc4" width="100%" height="400px"></iframe>
+        </div>
+        <div class="buttons">
+        <button type="button" class="button"><a href="hikes-blog.html">Browse our hikes</a></button>
+        </div>
+      </section>
+      <section class="contact">
+        <h2>Contact us</h2>
+        <form class="contact" action="thanks.html" method="post">
+          <label for="Name">Full name:</label>
+            <input type="text" name="firstname" value=""><br>
+          <label for="company">I would like to</label>
+            <select name="company">
+              <option value="small">Suggest a hike</option>
+              <option value="medium">Join the hiking clun</option>
+              <option value="large">contact you for another reason</option>
+            </select><br>
+            <input type="submit" value="Submit" class="button">
+        </form>
+      </section>
+  <footer>
+    <h4>Acknowledgement of Country</h4>
+      <section class="flags">
+        <img src="images/abtor.png" width="105px" height="75px" alt="Aboriginal and Torres Strait Islander flags">
+        <p>Members of the International Hiking Club respect the tranditional owners of the lands they hike on and are committed to preserving their natural beauty.</p>
+      </section>
+  </footer>
+  </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/main.js"></script>
+  </body>
+</html>

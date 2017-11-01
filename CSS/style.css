@@ -1,0 +1,334 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  max-width: 95%;
+  margin: auto;
+}
+header {
+  padding-bottom: 5px;
+}
+
+.logo {
+  width: 100%;
+  height: 40%;
+  font-size: 1em;
+  text-align: center;
+  color: #FFFFCC;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.thing-to-spin {
+  width: 100px;
+  height: 100px;
+  margin-left: 80%;
+}
+
+.thing-to-float {
+  width: 80px;
+  height: auto;
+  margin-left: 0px;
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.main {
+  width: 80%;
+  height: 100%;
+  background-color: rgba(255,255,204, 0.6);
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.main p {
+  margin: 0;
+}
+nav {
+  width: 80%;
+  height: 100%;
+  background-color: rgba(255,255,204, 0.6);
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+ul {
+  font-weight: bold;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  text-align: center;
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.3em;
+}
+
+nav ul li a {
+  color: #007299;
+  text-decoration: none;
+  font-weight: 00;
+  text-transform: uppercase;
+}
+.menu {
+  display: none;
+  text-decoration: underline;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: left;
+  margin: 0;
+  padding: 10px 0px 10px 0px;
+}
+
+h3 {
+  font-size: 1.3em;
+  color: #007299;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+.members {
+  text-align: center;
+  font-size: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.member {
+  width: 200px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  vertical-align: top;
+}
+
+.member p {
+  margin: 0;
+}
+
+.Josh2 {
+  display: none;
+}
+
+.Acalia2 {
+  display: none;
+}
+
+.Sam2 {
+  display: none;
+}
+
+.Michelle2 {
+  display: none;
+}
+
+.Kerry2 {
+  display: none;
+}
+
+.hikes {
+  text-align: center;
+}
+
+.hikes p {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.blog {
+  padding-bottom: 20px;
+}
+h4 {
+  font-size: 1em;
+  color: #007299;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+  font-style: italic;
+  text-align: left;
+}
+.main-blog {
+  display: none;
+}
+.read-less {
+  display: none;
+  color: #007299;
+  text-decoration: underline;
+}
+.read-more a, .read-less a {
+  color: #007299;
+  text-decoration: underline;
+}
+.read-more {
+  color: #007299;
+  text-decoration: underline;
+}
+.buttons {
+  padding-bottom: 10px;
+}
+.button, .show-blog, .show-map {
+  background-color: #007299;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  text-align: center;
+  border-color: #007299;
+  border-radius: 8px;
+  font-size: 0.8em;
+  margin: 10px;
+}
+.button a {
+  color: white;
+  text-decoration: none;
+}
+label {
+  display: inline-block;
+  float:left;
+  clear: left;
+  width: 200px;
+  text-align: left;
+}
+
+.field {
+  display: inline-block;
+  float: left;
+  height: auto;
+  width: 200px;
+  font-size: 0.8em;
+}
+
+footer {
+  padding-top: 10px;
+  font-size: 0.7em;
+}
+h4 {
+  font-size: 1.2em;
+  margin: 0;
+}
+.flags {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+footer p {
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: 0;
+}
+@media screen and (max-width: 400px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  li {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .flags {
+    font-size: 0.7em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 807px) {
+  body {
+    font-size: 20px;
+  }
+  .thing-to-spin {
+    display: none;
+  }
+  li {
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .member h3 {
+    display: none;
+  }
+  .member p {
+    display: none;
+  }
+
+  .Josh2 {
+    display: block;
+  }
+  .Josh1 {
+    display: none;
+  }
+  .Acalia2 {
+    display: block;
+  }
+  .Acalia1 {
+    display: none;
+  }
+  .Sam2 {
+    display: block;
+  }
+  .Sam1 {
+    display: none;
+  }
+  .Michelle2 {
+    display: block;
+  }
+  .Michelle1 {
+    display: none;
+  }
+  .Kerry2 {
+    display: block;
+  }
+  .Kerry1 {
+    display: none;
+  }
+    )
+}
+
+@keyframes spin-me {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.thing-to-spin {
+  animation-name: spin-me;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
